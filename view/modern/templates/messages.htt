@@ -1,0 +1,117 @@
+<block_addmoney_error_novalue>
+ <p>
+  <img src="%imgfolder%/cross.png">
+  <ru>Значение не введено.</ru>
+  <en>Value not set.</en>
+ </p>
+</block_addmoney_error_novalue>
+
+<block_addmoney_error_nodate>
+ <p>
+  <img src="%imgfolder%/cross.png">
+  <ru>Дата не введена.</ru>
+  <en>Date not set.</en>
+ </p>
+</block_addmoney_error_nodate>
+
+<block_addmoney_error_unknown>
+ <p>
+  <img src="%imgfolder%/cross.png">
+  <ru>Произошла неизвестная ошибка. Вероятно, данные уже сохранены.</ru>
+  <en>Unknown error occured. Possibly data is already saved.</en>
+ </p>
+</block_addmoney_error_unknown>
+
+<block_addcall_error_novalue>
+ <p>
+  <img src="%imgfolder%/cross.png">
+  <ru>Комментарий не введён.</ru>
+  <en>Comment not set.</en>
+ </p>
+</block_addcall_error_novalue>
+
+<block_addcall_error_nophone>
+ <p>
+  <img src="%imgfolder%/cross.png">
+  <ru>Номер телефона не введён.</ru>
+  <en>Phone number not set.</en>
+ </p>
+</block_addcall_error_nophone>
+
+<block_addmoney_success>
+ <p>
+  <img src="%imgfolder%/tick.png">
+  <ru>Данные сохранены.</ru>
+  <en>Data saved.</en>
+ </p>
+</block_addmoney_success>
+
+<block_adduser_error_nousername>
+ <p>
+  <img src="%imgfolder%/cross.png">
+  <ru>Имя пользователя не введёно.</ru>
+  <en>Username not set.</en>
+ </p>
+</block_adduser_error_nousername>
+
+<block_adduser_error_noemail>
+ <p>
+  <img src="%imgfolder%/cross.png">
+  <ru>Email не введён.</ru>
+  <en>Email not set.</en>
+ </p>
+</block_adduser_error_noemail>
+
+<block_updatepassword_success>
+ <p>
+  <img src="%imgfolder%/tick.png">
+  <ru>Пароль обновлён.</ru>
+  <en>Password updated.</en>
+ </p>
+</block_updatepassword_success>
+
+<block_updatepassword_error_nopassword>
+ <p>
+  <img src="%imgfolder%/cross.png">
+  <ru>Пароль не введён.</ru>
+  <en>Password not set.</en>
+ </p>
+</block_updatepassword_error_nopassword>
+
+<block_error_nofloor>
+ <p>
+  <img src="%imgfolder%/cross.png">
+  <ru>Этаж не введён.</ru>
+  <en>Floor number not set.</en>
+ </p>
+</block_error_nofloor>
+
+<block_error_nofloors>
+ <p>
+  <img src="%imgfolder%/cross.png">
+  <ru>Кол-во этажей не введёно.</ru>
+  <en>Floors count not set.</en>
+ </p>
+</block_error_nofloors>
+
+<block_error_norooms>
+ <p>
+  <img src="%imgfolder%/cross.png">
+  <ru>Кол-во комнат не введёно.</ru>
+  <en>Rooms count not set.</en>
+ </p>
+</block_error_norooms>
+
+
+<block_savefirst_nbs>
+ <ru>Прежде, чем добавлять квартиры, необходимо сохранить карточку. Для этого нажмите кнопку "Сохранить".</ru>
+ <en>Before you will be able to save apartments please save data by pressing "Save" button.</en>
+</block_savefirst_nbs>
+
+<block_error_nouserrights>
+ <p>
+  <img src="%imgfolder%/cross.png">
+  <ru>Недостаточно прав для сохранения информации. Вы можете сохранять только свои записи.</ru>
+  <en>Not enough rights to save data. You can save only your records.</en>
+ </p>
+</block_error_nouserrights>

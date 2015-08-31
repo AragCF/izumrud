@@ -1,0 +1,20 @@
+
+    UPDATE   `users`
+    SET
+   
+    `LastAccess`=NOW()
+    WHERE    (`ID`='1') AND (`Banned`=0)
+    ; 
+   
+
+     UPDATE `customers`
+     SET    `UserID`='1', `DateTarget`='2015-02-07 06&#58;58&#58;11', `Address`='', `Phone`='1', `CustomerSubtypeID`='3', `MethodOfPaymentID`='1', `SourceID`='1', `Status`='2', `DirectionID`='1', `FloorID`='3', `MaxCost`='', `DistrictIDs`='District_6;District_2;District_3;District_4;District_5;', `DesiredRoomsIDs`='pdesiredrooms_0;pdesiredrooms_1;pdesiredrooms_4;pdesiredrooms_5;pdesiredrooms_6;', `HouseTypeIDs`='phousetype_1;phousetype_4;', `TargetContact`='0', `OfficeVisit`='0', `ObjectShow`='0', `HasAgreement`='0', `DepositReceived`='0', `Handshake`='0'
+     WHERE  `ID` = '1'
+     ; 
+    
+
+    INSERT INTO `events`
+     (`Name`, `TableName`, `ColumnName`, `ColumnValue`, `RowID`, `DateAdded`, `UserID`)
+    VALUES
+     ('CustomerUpdated', 'customers', 'ID', '1', '1', '2015-02-09 03-55-43', '1') ; 
+   

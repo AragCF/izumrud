@@ -1,0 +1,75 @@
+{
+ "EventTypes": {
+  "fields": [
+   "ID", "Content", "IsActive"
+  ], 
+
+  "row0": [ 
+   "1", "Plain lifetime event", "1"
+  ], 
+  "row1": [ 
+   "2", "Prana inc. event", "0"
+  ], 
+  "row2": [ 
+   "3", "Factory projects event", "0"
+  ], 
+  "row3": [ 
+   "4", "Village event", "0"
+  ], 
+  "row4": [ 
+   "5", "Gone sleeping event", "1"
+  ], 
+  "row5": [ 
+   "6", "Wake up event", "1"
+  ], 
+  "row6": [ 
+   "7", "Idea for a future project or improvement", "1"
+  ], 
+  "row7": [ 
+   "8", "CF event", "1"
+  ], 
+  "row8": [ 
+   "9", "Task undone", "1"
+  ], 
+  "row9": [ 
+   "10", "Task done", "1"
+  ], 
+  "row10": [ 
+   "11", "SSTU project event", "0"
+  ], 
+  "row11": [ 
+   "12", "Meeting event", "1"
+  ], 
+  "row12": [ 
+   "13", "RA PARUS websites event", "0"
+  ], 
+  "row13": [ 
+   "14", "Media-stars projects event", "0"
+  ], 
+  "row14": [ 
+   "15", "Confidential info", "1"
+  ], 
+  "row15": [ 
+   "16", "Phone number", "1"
+  ], 
+  "row16": [ 
+   "17", "Interesting info", "1"
+  ], 
+  "row17": [ 
+   "18", "Work started", "1"
+  ], 
+  "row18": [ 
+   "19", "Work ended", "1"
+  ], 
+  "row19": [ 
+   "20", "Holidays started", "1"
+  ], 
+  "row20": [ 
+   "21", "Holidays ended", "1"
+  ], 
+  "row21": [ 
+   "22", "Useful info", "1"
+  ]
+ } 
+}
+

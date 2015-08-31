@@ -1,0 +1,33 @@
+{
+ "WeatherTypes": {
+  "fields": [
+   "ID", "Content"
+  ], 
+
+  "row0": [ 
+   "1", "[Not set]"
+  ], 
+  "row1": [ 
+   "2", "Clear"
+  ], 
+  "row2": [ 
+   "3", "Cloud"
+  ], 
+  "row3": [ 
+   "4", "Clouds"
+  ], 
+  "row4": [ 
+   "5", "Fog"
+  ], 
+  "row5": [ 
+   "6", "Lightning"
+  ], 
+  "row6": [ 
+   "7", "Rain"
+  ], 
+  "row7": [ 
+   "8", "Snow"
+  ]
+ } 
+}
+

@@ -1,0 +1,15 @@
+{
+ "ProjectTypes": {
+  "fields": [
+   "ID", "Content"
+  ], 
+
+  "row0": [ 
+   "1", "Internal"
+  ], 
+  "row1": [ 
+   "2", "External"
+  ]
+ } 
+}
+

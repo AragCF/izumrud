@@ -1,0 +1,21 @@
+{
+ "MoneyRecordTypes": {
+  "fields": [
+   "ID", "Content"
+  ], 
+
+  "row0": [ 
+   "1", "Income (Приход)"
+  ], 
+  "row1": [ 
+   "2", "Expenditure (Расход)"
+  ], 
+  "row2": [ 
+   "3", "Virtual Income (Виртуальный приход)"
+  ], 
+  "row3": [ 
+   "4", "Virtual Expenditure (Виртуальный расход)"
+  ]
+ } 
+}
+

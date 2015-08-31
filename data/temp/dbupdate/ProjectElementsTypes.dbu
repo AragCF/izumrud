@@ -1,0 +1,15 @@
+{
+ "ProjectElementsTypes": {
+  "fields": [
+   "ID", "Content", "Description"
+  ], 
+
+  "row0": [ 
+   "1", "Work", ""
+  ], 
+  "row1": [ 
+   "2", "Part", ""
+  ]
+ } 
+}
+

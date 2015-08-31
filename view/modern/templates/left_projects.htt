@@ -1,0 +1,196 @@
+<table class=editor id=leftfilters>
+ <tr>
+  <td class=l colspan=2>
+   <h4><ru>Фильтры</ru><en>Filters</en></h4>
+  </td>
+ </tr>
+ <tr class=vtop>
+  <td class=r>
+   <b><ru>Отображать проекты</ru><en>Which projects do you wanna see here?</en>:</b>
+  </td>
+  <td class=l id=r_projectsview>
+   <frb all  r_projectsview><ru>Все</ru><en>All</en></frb>
+   <frb current 1 r_projectsview><ru>Только актуальные</ru><en>Actual only</en></frb>
+  </td>
+ </tr>
+</table>
+
+<hr>
+
+<table class=editor id=leftfilters>
+ <tr>
+  <td class=r>
+  </td>
+  <td class=l>
+   <comctl -1  newProject plus.png><ru>Добавить новый проект</ru><en>Add new project</en></comctl>
+  </td>
+ </tr>
+</table>
+
+
+<div id="popupdefault"       class=hidden>
+ <table class=editorcontainer>
+  <col width=20%><col width=60%><col width=20%>
+  <tr>
+   <td></td>
+   <td></td>
+   <td></td>
+  </tr>
+  <tr>
+   <td></td>
+   <td>
+    <div class=c>
+     <div class=popupheader>
+      <div class=floatl><en>Izum Editor Window</en><ru>Редактор</ru>
+       <span id='caption_newcard'><en> - new item</en><ru> - новая карточка</ru></span>
+      </div>
+      <div class=floatr><a href="javascript:hidepopup();"><img src='%viewroot%/img/cross.png'></a></div>
+      <div class=clrln01></div>&nbsp;
+     </div>
+     <div class=ch id=content>
+ 
+<table class=editor id=AddProject>
+ <tr class=hidden>
+  <td class=l colspan=2>
+   <h4 id=AddProject_Caption><ru>Создать проект</ru><en>Create new project</en></h4>
+  </td>
+ </tr>
+ <tr class=hidden_>
+  <td class=r>
+   <b>ID:</b>
+  </td>
+  <td class=l>
+   <cinputs ID></cinputs>
+  </td>
+  <td class=l>
+   <b><en>Participants</en><ru>Участники</ru>:</b>
+  </td>
+ </tr>
+ <tr>
+  <td class=r>
+   <b><en>Title</en><ru>Заголовок</ru>:</b>
+  </td>
+  <td class=l>
+   <cinputs Title></cinputs>
+  </td>
+  <td class=l rowspan=6 id='participants_td'>
+   <div id='participants'>
+    <block_participants>
+     <loop_participants>
+      <div class='floatl' id='usr_%ID%'><table><tr><td>%Username%</td><td><comctl_po %ID%  removeProjectParticipant cross-script.png><ru>Удалить участника</ru><en>Remove participant</en></comctl_po></td></tr></table></div>
+     </loop_participants>
+     <div class='clrln'></div>
+     <p><ru>Добавить участника</ru><en>Add participant</en>:</p>
+     <p>
+      <select id='users'>
+       <loop_users>
+        <option id='%ID%'>%Username%</option>
+       </loop_users>
+      </select>
+     </p>
+     <div class='clrln'></div>
+     <comctl -1  addProjectParticipant user--plus.png><ru>Добавить участника</ru><en>Add participant</en></comctl>
+    </block_participants>
+   </div>
+  </td>
+ </tr>
+ <tr>
+  <td class=r>
+   <b><en>Short title</en><ru>Краткий заголовок</ru>:</b>
+  </td>
+  <td class=l>
+   <cinputs ShortTitle></cinputs>
+  </td>
+ </tr>
+ <tr>
+  <td class=r>
+   <b><en>Folder name</en><ru>Имя папки</ru>:</b>
+  </td>
+  <td class=l>
+   <cinputs FolderName></cinputs>
+  </td>
+ </tr>
+ <tr>
+  <td class=r>
+   <b><en>Manager</en><ru>Менеджер</ru>:</b>
+  </td>
+  <td class=l>
+   <select id=AssignedTo>
+    <block_AssignedTo>
+     <option id=%ID%>%Username%</option>
+    </block_AssignedTo>
+   </select>
+  </td>
+ </tr>
+ <tr class=hidden>
+  <td class=r>
+   <b><en>Users</en><ru>Пользователи</ru>:</b>
+  </td>
+  <td class=l>
+   <block_Users>
+    <fcb %ID%  r_users>%Username%</fcb>
+   </block_Users>
+  </td>
+ </tr>
+ <tr>
+  <td class=r>
+   <b><en>Description</en><ru>Описание</ru>:</b>
+  </td>
+  <td class=l>
+   <ctxts Description></ctxts>
+  </td>
+ </tr>
+ <tr>
+  <td class=r>
+   <b><en>Cost</en><ru>Стоимость проекта</ru>:</b>
+  </td>
+  <td class=l>
+   <cinputs Cost></cinputs>
+  </td>
+ </tr>
+ <tr class=hidden>
+  <td class=r>
+   
+  </td>
+  <td class=l>
+   <comctl -1  addProject task--plus.png><ru>Создать проект</ru><en>Add project</en></comctl>
+  </td>
+ </tr>
+ <tr>
+  <td class=r>
+   
+  </td>
+  <td class=l id=debug>
+   
+  </td>
+ </tr>
+</table>
+
+
+     </div><br>
+     
+     <table class=popupbottombuttons>
+      <tr>
+       <td>
+        <input type=button class=button onclick="popupBtnClick(this.id);" id="popup_btn_process"    value="<en>Take care</en><ru>Обработать</ru>">
+        <input type=button class=button onclick="popupBtnClick(this.id);" id="popup_btn_save"       value="<en>Save</en><ru>Сохранить</ru>">
+        <input type=button class=button onclick="popupBtnClick(this.id);" id="popup_btn_completed"  value="<en>Sold</en><ru>Продано</ru>">
+        <input type=button class=button onclick="popupBtnClick(this.id);" id="popup_btn_denied"     value="<en>Denied</en><ru>Отказ</ru>">
+        <input type=button class=button onclick="popupBtnClick(this.id);" id="popup_btn_delete"     value="<en>Delete</en><ru>Удалить</ru>">
+        <input type=button class=button onclick="popupBtnClick(this.id);" id="popup_btn_close"      value="<en>Close</en><ru>Закрыть</ru>">
+       </td>
+      </tr>
+     </table>
+    </div>
+   </td>
+   <td></td>
+  </tr>
+  <tr>
+   <td></td>
+   <td></td>
+   <td></td>
+  </tr>
+ </table>
+</div>
+
+

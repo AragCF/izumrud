@@ -1,0 +1,18 @@
+{
+ "ExpenditureZones": {
+  "fields": [
+   "ID", "Content", "Description"
+  ], 
+
+  "row0": [ 
+   "1", "Internal", ""
+  ], 
+  "row1": [ 
+   "2", "External", ""
+  ], 
+  "row2": [ 
+   "3", "Income", ""
+  ]
+ } 
+}
+
